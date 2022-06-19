@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Registro</title>
+    </head>
+    <body>
+        <h1>Registro</h1>
+        <a href="Untitled-1.html"> <h2>Voltar</h2></a>
+        <form>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" />
+            <br />
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" name="email" required />
+            <br />
+            <label for="senha">Senha:</label
+            ><input type="password" name="senha" min="5" />
+            <br />
+            <label for="dataDeNascimento">Data de Nascimento:</label>
+            <input id="dataDeNascimento" type="date" />
+            <br />
+            Gênero:
+            <br />
+            <input type="radio" name="gender" value="Masculino" />Masculino<br />
+            <input type="radio" name="gender" value="Feminino" />Feminino<br />
+            <input type="radio" name="gender" value="Outro" />Outro<br />
+            Pets:
+            <br />
+            <input type="checkbox" value="gato" /> Gato
+            <br />
+            <input type="checkbox" value="cachorro" /> Cachorro
+            <br />
+            Carros:
+            <br />
+            <select multiple>
+                <option value="volvo" name="volvo">Volvo</option>
+                <option value="Audi" name="audi">Audi</option>
+            </select>
+            <br />
+            <input type="submit" value="Registrar!" />
+            <input type="reset" valeu="Redefinir!" />
+        </form>
+    </body>
+</htmt>
